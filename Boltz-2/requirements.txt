@@ -3,6 +3,3 @@
 conda create -n boltz2 python==3.10 -y
 conda activate boltz2
 pip install boltz[cuda] -U # In GPU
-
-# For compatibility with ML4MIKC
-pip install h5py

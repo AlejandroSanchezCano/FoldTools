@@ -1,0 +1,7 @@
+# 28/05/2026
+conda create -n biohub python=3.12 -y
+conda activate biohub
+pip install esm@git+https://github.com/Biohub/esm.git@c94ed8d
+# pip install transformer-engine[pytorch] # gives an error
+pip install xformers
+pip install flash-attn
